@@ -21,7 +21,7 @@ jobs:
         shell: cmd
         run: |
           cd build
-          cmake -G "Visual Studio 16 2019" -DBUILD_SDLGPU=On -DCMAKE_BUILD_TYPE=MinSizeRel -DBUILD_WITH_ALL=ON -PBUILD_PRO=On ..
+          cmake -G "Visual Studio 16 2019" -DBUILD_SDLGPU=On -DCMAKE_BUILD_TYPE=MinSizeRel -DBUILD_WITH_ALL=ON -DBUILD_PRO=On ..
           cmake --build . --config MinSizeRel --parallel
 
       - name: Deploy
@@ -54,7 +54,7 @@ jobs:
       - name: Build
         run: |
           cd build
-          cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DBUILD_SDLGPU=On -DBUILD_WITH_ALL=ON -PBUILD_PRO=On ..
+          cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DBUILD_SDLGPU=On -DBUILD_WITH_ALL=ON -DBUILD_PRO=On ..
           cmake --build . --config MinSizeRel --parallel
 
       - name: Deploy
@@ -93,7 +93,7 @@ jobs:
         run: |
           cd build/android
           chmod +x gradlew
-          ./gradlew assembleRelease -PBUILD_PRO=On
+          ./gradlew assembleRelease -DBUILD_PRO=On
           cp app/build/outputs/apk/release/app-release.apk tic80.apk
 
         env:
