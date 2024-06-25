@@ -1,6 +1,7 @@
 name: Build
 
 on: [push, pull_request]
+
   # === Windows ===
   windows:
     runs-on: windows-2019
