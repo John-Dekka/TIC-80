@@ -1,4 +1,4 @@
-[![Build](https://github.com/John-Dekka/TIC-80/actions/workflows/Build.yml/badge.svg?branch=main)](https://github.com/John-Dekka/TIC-80/actions/workflows/Build.yml)
+[![Build](https://github.com/John-Dekka/TIC-80/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/John-Dekka/TIC-80/actions/workflows/build.yml)
 
 ![TIC-80](https://tic80.com/img/logo64.png)
 **TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com)
