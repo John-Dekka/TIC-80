@@ -13,14 +13,14 @@
   "SELECT": 14,
   "CURSOR": 2,
   "SHADOW": true,
-  "ALT_FONT": false,
+  "ALT_FONT": true,
   "ALT_CARET": false,
   "MATCH_DELIMITERS": true,
   "AUTO_DELIMITERS": false,
 },
 
 "GAMEPAD_TOUCH_ALPHA":180,
-"CHECK_NEW_VERSION":true,
+"CHECK_NEW_VERSION":false,
 "SOFTWARE_RENDERING":false,
 "UI_SCALE":4,
 "TRIM_ON_SAVE":false
